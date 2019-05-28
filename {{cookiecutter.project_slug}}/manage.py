@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!{% if cookiecutter.use_docker == 'y' %}/usr/local/bin/python{% else %}/usr/bin/env python{% endif %}
 import os
 import sys
 
